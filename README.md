@@ -1,10 +1,13 @@
 ## A Net.Core development application to query latitude and longitude at once
 
 Enter your Google Maps key (you can get it from the Google Maps console> Credentials)
+
     var _license = "PUT_YOUR_GOOGLEMAPS_KEY";
 
 Enter the path where your Excel file is
-    var _path = "C:\\Pessoal\\GetManyLatLong.App\\address.xlsx";
+
+    var _path = "C:\\Pessoal\\GetManyLatLong.App";
+
 
  - The file should preferably be in the ".xlsx" extension.
  - Close the Excel file before starting the application, as it will overwrite the file with the new columns containing the latitude and longitude data.
